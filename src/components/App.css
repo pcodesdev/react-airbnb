@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+}
+
+.hero-container{
+    position: absolute;
+    align-items: center;
+margin: 70px;
+/* display: flex; */
+/* flex-direction: column; */
+}
+
+img {
+    width: 300px;
+  }
+
+  @media only screen and (max-width: 580px) {
+    img {
+      width: 100%;
+    }
+  }
