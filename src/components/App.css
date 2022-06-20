@@ -7,19 +7,28 @@ body{
 }
 
 .hero-container{
-    position: absolute;
-    align-items: center;
-margin: 70px;
+    /* position: absolute; */
+    margin: 70px;
 /* display: flex; */
 /* flex-direction: column; */
 }
 
 img {
     width: 300px;
-  }
 
-  @media only screen and (max-width: 580px) {
-    img {
-      width: 100%;
-    }
   }
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    img {
+      width: 110%;
+       }
+}
+  /* @media only screen and (max-width: 360px) {
+    img {
+      width: 90%
+       }
+  } */
