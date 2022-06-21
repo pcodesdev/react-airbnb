@@ -10,7 +10,7 @@ body{
     /* position: absolute; */
     margin: 70px;
 /* display: flex; */
-/* flex-direction: column; */
+flex-direction: column;
 }
 
 img {
@@ -23,9 +23,16 @@ img {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    img {
+    /* img {
       width: 110%;
+       } */
+       .card-img-container{
+        width: 28rem;
        }
+      .card-render{
+        position: relative;
+        display: flex;
+      }
 }
   /* @media only screen and (max-width: 360px) {
     img {

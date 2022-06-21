@@ -19,7 +19,7 @@ import image14 from './images/image-14.jpg';
 
 function Hero() {
     return(
-        <div className="hero-container " style={{width: '22rem',}}>
+        <div className="hero-container card-img-container " >
             <img className='p-2 ' src={image1} alt=''></img>
             <img className='p-2' src={image2} alt=''></img>
             <img className='p-2' src={image3} alt=''></img>

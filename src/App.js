@@ -2,14 +2,16 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Card from './components/Card';
+import CardRender from './components/cardRender';
+// import Practice from './components/Practice';
 
 function App() {
   return (
     <div className="container">
       <Navbar/>
       <Hero/>
-      <Card/>
+      <CardRender/>
+      {/* <Practice/> */}
     </div>
   );
 }
