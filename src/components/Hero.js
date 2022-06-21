@@ -19,8 +19,8 @@ import image14 from './images/image-14.jpg';
 
 function Hero() {
     return(
-        <div className="hero-container">
-            <img className='p-2' src={image1} alt=''></img>
+        <div className="hero-container " style={{width: '22rem',}}>
+            <img className='p-2 ' src={image1} alt=''></img>
             <img className='p-2' src={image2} alt=''></img>
             <img className='p-2' src={image3} alt=''></img>
             <img className='p-2' src={image4} alt=''></img>
@@ -35,31 +35,31 @@ function Hero() {
             <Carousel>
                 <div>
                     <img src={image8} />
-                    <p className="legend">Legend 1</p>
+                    <p className="legend bg-light text-dark">Legend 1</p>
                 </div>
                 <div>
                     <img src={image9} />
-                    <p className="legend">Legend 2</p>
+                    <p className="legend bg-light text-dark">Legend 2</p>
                 </div>
                 <div>
                     <img src={image10} />
-                    <p className="legend">Legend 3</p>
+                    <p className="legend bg-light text-dark">Legend 3</p>
                 </div>
                 <div>
                     <img src={image11} />
-                    <p className="legend">Legend 4</p>
+                    <p className="legend bg-light text-dark">Legend 4</p>
                 </div>
                 <div>
                     <img src={image12} />
-                    <p className="legend">Legend 5</p>
+                    <p className="legend bg-light text-dark">Legend 5</p>
                 </div>
                 <div>
                     <img src={image13} />
-                    <p className="legend">Legend 6</p>
+                    <p className="legend bg-light text-dark">Legend 6</p>
                 </div>
                 <div>
                     <img src={image14} />
-                    <p className="legend">Legend 7</p>
+                    <p className="legend bg-light text-dark">Legend 7</p>
                 </div>
                 
 
