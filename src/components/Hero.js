@@ -19,8 +19,8 @@ import image14 from './images/image-14.jpg';
 
 function Hero() {
     return(
-        <div>
-        <div className="hero-container " >
+        <div className='container'>
+        <div className="hero-container" >
             <img className='p-2 ' src={image1} alt=''></img>
             <img className='p-2' src={image2} alt=''></img>
             <img className='p-2' src={image3} alt=''></img>
@@ -33,33 +33,34 @@ function Hero() {
             </p>
             <hr/>
             <h1 className='fw-bold m-1'>React Responsive Carousel</h1>
-            <Carousel className='card-img-container'>
+            </div>
+            <Carousel className=''>
                 <div>
-                    <img src={image8} />
+                    <img className='img-fluid' src={image8} />
                     <p className="legend bg-light text-dark">Legend 1</p>
                 </div>
                 <div>
-                    <img src={image9} />
+                    <img className='img-fluid' src={image9} />
                     <p className="legend bg-light text-dark">Legend 2</p>
                 </div>
                 <div>
-                    <img src={image10} />
+                    <img className='img-fluid' src={image10} />
                     <p className="legend bg-light text-dark">Legend 3</p>
                 </div>
                 <div>
-                    <img src={image11} />
+                    <img className='img-fluid' src={image11} />
                     <p className="legend bg-light text-dark">Legend 4</p>
                 </div>
                 <div>
-                    <img src={image12} />
+                    <img className='img-fluid' src={image12} />
                     <p className="legend bg-light text-dark">Legend 5</p>
                 </div>
                 <div>
-                    <img src={image13} />
+                    <img className='img-fluid' src={image13} />
                     <p className="legend bg-light text-dark">Legend 6</p>
                 </div>
                 <div>
-                    <img src={image14} />
+                    <img className='img-fluid' src={image14} />
                     <p className="legend bg-light text-dark">Legend 7</p>
                 </div>
                 
@@ -68,7 +69,7 @@ function Hero() {
 
             <hr/>
 
-            </div>
+           
             
         </div>
     )
