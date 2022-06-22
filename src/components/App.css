@@ -22,14 +22,14 @@ img {
 /* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 450px)
+  and (max-device-width: 400px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     /* img {
       width: 110%;
        } */
        .card-img-container{
-        width: 25rem;
+        width: 22rem;
        }
      
 }

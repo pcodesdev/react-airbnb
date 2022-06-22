@@ -19,6 +19,7 @@ import image14 from './images/image-14.jpg';
 
 function Hero() {
     return(
+        <div>
         <div className="hero-container " >
             <img className='p-2 ' src={image1} alt=''></img>
             <img className='p-2' src={image2} alt=''></img>
@@ -67,7 +68,7 @@ function Hero() {
 
             <hr/>
 
-            
+            </div>
             
         </div>
     )
