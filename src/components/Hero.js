@@ -19,7 +19,7 @@ import image14 from './images/image-14.jpg';
 
 function Hero() {
     return(
-        <div className="hero-container card-img-container " >
+        <div className="hero-container " >
             <img className='p-2 ' src={image1} alt=''></img>
             <img className='p-2' src={image2} alt=''></img>
             <img className='p-2' src={image3} alt=''></img>
@@ -32,7 +32,7 @@ function Hero() {
             </p>
             <hr/>
             <h1 className='fw-bold m-1'>React Responsive Carousel</h1>
-            <Carousel>
+            <Carousel className='card-img-container'>
                 <div>
                     <img src={image8} />
                     <p className="legend bg-light text-dark">Legend 1</p>

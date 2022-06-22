@@ -9,8 +9,10 @@ body{
 .hero-container{
     /* position: absolute; */
     margin: 70px;
+    align-items: center;
+    justify-content: space-between;
 /* display: flex; */
-flex-direction: column;
+/* flex-direction: column; */
 }
 
 img {

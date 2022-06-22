@@ -6,7 +6,7 @@ import Card from './Card';
 function CardRender() {
     return(
         <div className=" container"> 
-        <div className='row row-cols-1 row-cols-md-3 position-relative m-1 '>
+        <div className='row row-cols-1 row-cols-md-3 position-relative shadow-lg p-3 mb-5 bg-info rounded '>
       
         <div className=' card col-sm-6 col shadow-lg bg-body rounded  ' style={{width:'23rem'}}>
         <Card/>
