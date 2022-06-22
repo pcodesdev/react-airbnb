@@ -20,19 +20,16 @@ img {
 /* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
-  and (max-device-width: 480px)
+  and (max-device-width: 450px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     /* img {
       width: 110%;
        } */
        .card-img-container{
-        width: 28rem;
+        width: 25rem;
        }
-      .card-render{
-        position: relative;
-        display: flex;
-      }
+     
 }
   /* @media only screen and (max-width: 360px) {
     img {

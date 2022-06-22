@@ -5,18 +5,22 @@ import Card from './Card';
 
 function CardRender() {
     return(
-        <div className="  pt-2 pb-2 align-middle card-group  shadow  bg-body rounded d-flex "> 
-        <div className=' card-render card shadow-lg p-2 mb-1 bg-body rounded position-relative'>
-        
-            <Card/>
-            
-            
-            <Card/>
-            
-            <Card/>
-        
+        <div className=" container"> 
+        <div className='row row-cols-1 row-cols-md-3 position-relative m-1 '>
+      
+        <div className=' card col-sm-6 col shadow-lg bg-body rounded  ' style={{width:'23rem'}}>
+        <Card/>
             </div>
+            
+            <div className='card col-sm-6 col shadow-lg bg-body rounded' style={{width:'23rem'}}>
+            <Card/>
+            </div>
+            <div className='card col-sm-6 col shadow-lg  bg-body rounded ' style={{width:'23rem'}}>
+            <Card/>
+            </div>
+            </div>
+            
         </div>
     )
 }
-export default CardRender
+export default CardRender;

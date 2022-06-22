@@ -8,13 +8,13 @@ import { FaStar } from 'react-icons/fa';
 
 function Card() {
     return(
-       
-        <div className=" card m-1  text-white" style={{width: '21rem',}}>
+  
+  <div >
   <img className="card-img rounded" style={{height: '23rem'}} src={image15}  alt="..."></img>
   <div className="card-img-overlay">
     <h5 className="card-title bg-white text-dark p-2 rounded-pill text-center" style={{width: '8rem', }}>Booked</h5>
   </div>
-  <div className="card-body m-1">
+  <div className="card-body ">
     <p className="card-text text-dark fs-2"><span className='text-danger m-0 p-0'><FaStar/></span> 5.0 <span className='lead fs-2'>(6).KENYA</span></p>
     <p className="card-text text-dark fs-5">Life lessons with Peter Hannahs</p>
     <p className="card-text text-dark fs-5"><span className='fw-bold'>From Ksh 10,000</span> / <span>person</span> </p>
