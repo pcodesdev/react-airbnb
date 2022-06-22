@@ -31,6 +31,9 @@ img {
        .card-img-container{
         width: 20rem;
        }
+       .card--container{
+        width: 18rem;
+       }
      
 }
   /* @media only screen and (max-width: 360px) {
