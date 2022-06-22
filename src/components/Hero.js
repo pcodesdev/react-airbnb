@@ -19,7 +19,7 @@ import image14 from './images/image-14.jpg';
 
 function Hero() {
     return(
-        <div className='container'>
+        <div className=''>
         <div className="hero-container" >
             <img className='p-2 ' src={image1} alt=''></img>
             <img className='p-2' src={image2} alt=''></img>
@@ -34,6 +34,7 @@ function Hero() {
             <hr/>
             <h1 className='fw-bold m-1'>React Responsive Carousel</h1>
             </div>
+            <div className='container'>
             <Carousel className=''>
                 <div>
                     <img className='img-fluid' src={image8} />
@@ -66,6 +67,7 @@ function Hero() {
                 
 
             </Carousel>
+            </div>
 
             <hr/>
 
