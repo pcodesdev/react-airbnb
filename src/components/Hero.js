@@ -16,6 +16,7 @@ import image11 from './images/image-11.jpg';
 import image12 from './images/image-12.jpg';
 import image13 from './images/image-13.jpg';
 import image14 from './images/image-14.jpg';
+import image18 from './images/image-18.jpg';
 
 function Hero() {
     return(
@@ -28,6 +29,7 @@ function Hero() {
             <img className='p-2' src={image5} alt=''></img>
             <img className='p-2' src={image6} alt=''></img>
             <img className='p-2' src={image7} alt=''></img>
+            <img className='p-2' src={image8} alt=''></img>
             <h1 className='fw-bold m-1'>Online Experiences</h1>
             <p className='lead m-1'>Join unique interactive activities led by one-of-a-kind hosts—all without leaving home.
             </p>

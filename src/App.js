@@ -7,7 +7,7 @@ import CardRender from './components/cardRender';
 
 function App() {
   return (
-    <div className="cantainer">
+    <div className="">
       <Navbar/>
       <Hero/>
       <CardRender/>

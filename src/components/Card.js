@@ -2,22 +2,22 @@ import React from   'react';
 
 import './App.css';
 
-import image15 from './images/image-15.jpg';
+// import image15 from './images/image-15.jpg';
 
-import { FaStar } from 'react-icons/fa';
+// import { FaStar } from 'react-icons/fa';
 
-function Card() {
+function Card(props) {
     return(
   
   <div >
-  <img className="card-img rounded" style={{height: '23rem'}} src={image15}  alt="..."></img>
+  <img className="card-img rounded" style={{height: '23rem'}} src={props.img}  alt="..."></img>
   <div className="card-img-overlay">
-    <h5 className="card-title bg-white text-dark p-2 rounded-pill text-center" style={{width: '8rem', }}>Booked</h5>
+    <h5 className="card-title bg-white text-dark p-2 rounded-pill text-center" style={{width: '8rem', }}>{props.overlayText}</h5>
   </div>
   <div className="card-body ">
-    <p className="card-text text-dark fs-2"><span className='text-danger m-0 p-0'><FaStar/></span> 5.0 <span className='lead fs-2'>(6).KENYA</span></p>
-    <p className="card-text text-dark fs-5">Life lessons with Peter Hannahs</p>
-    <p className="card-text text-dark fs-5"><span className='fw-bold'>From Ksh 10,000</span> / <span>person</span> </p>
+    <p className="card-text text-dark fs-2"><span className='text-danger m-0 p-0'>{props.icon}</span> {props.ratings} <span className='lead fs-2'>{props.number}.{props.country}</span></p>
+    <p className="card-text text-dark fs-5">{props.author}</p>
+    <p className="card-text text-dark fs-5"><span className='fw-bold'>{props.price}</span> / <span>{props.noOfPersons}</span> </p>
   </div>
 
 
