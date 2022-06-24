@@ -53,16 +53,6 @@ img {
      
 }
 
-@media (min-width: 768px) { 
-  .card-container{
-    display: grid;
-    width: 23rem;
-   }
- }
-   @media only screen and (max-width: 360px) {
-    .card-container{
-    display: grid;
-    width: 23rem;
-   }
-       }
+
+
  
