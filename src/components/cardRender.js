@@ -16,7 +16,7 @@ function CardRender() {
 const details=CardData.map(data=>{
    return ( <div className='container'>
     <div className='card-group'>
-   <div className='card justify-content-around card-items' style={{width:'23rem'}}><Card 
+   <div className='card justify-content-around shadow-lg p-2 mb-5  bg-light rounded-3 card-items' style={{width:'23rem'}}><Card 
     name={data.name}
     price={data.price}
     img={data.img}
