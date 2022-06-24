@@ -14,7 +14,9 @@ import CardData from './data';
 
 function CardRender() {
 const details=CardData.map(data=>{
-   return ( <Card 
+   return ( <div className='container'>
+    <div className='card-group'>
+   <div className='card postion-relative'><Card 
     name={data.name}
     price={data.price}
     img={data.img}
@@ -23,20 +25,26 @@ const details=CardData.map(data=>{
     country={data.country}
     noOfPersons={data.noOfPersons}
     overlayText={data.overlayText}
+    key={data.name}
 
    />
+   </div>
+  </div>
+  </div>
    )
 })
 
     return(
         
 
-        <div className='container'>
-       
-        <div  style={{display: 'flex',  width: '70rem', flexDirection: 'row',flex:'0 0 auto', position: 'relative'}}>{details}
-        <hr/>
+        
+        <div className='d-flex flex-sm-row flex-md-row flex-column justify-content-between'>
+        
+        {details}
+        
         </div>
-        </div>
+        
+        
         
        
 
