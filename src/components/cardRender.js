@@ -16,7 +16,7 @@ function CardRender() {
 const details=CardData.map(data=>{
    return ( <div className='container'>
     <div className='card-group'>
-   <div className='card postion-relative'><Card 
+   <div className='card justify-content-around card-items' style={{width:'22rem'}}><Card 
     name={data.name}
     price={data.price}
     img={data.img}
@@ -36,12 +36,13 @@ const details=CardData.map(data=>{
 
     return(
         
-
+<div className='container'>
         
         <div className='d-flex flex-sm-row flex-md-row flex-column justify-content-between'>
         
         {details}
         
+        </div>
         </div>
         
         

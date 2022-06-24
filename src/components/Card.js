@@ -16,8 +16,8 @@ function Card({img, overlayText, ratings,name, reviews ,country, price, noOfPers
     return(
       
       
-      <div className='m-2' >
-  <img className="card-img rounded" style={{height: '25rem', width: '23rem'}} src={img}  alt="..."></img>
+      <div className='' >
+  <img className="card-img rounded" style={{height: '25rem', width: '21rem'}} src={img}  alt="..."></img>
   <div className="card-img-overlay">
     <h5 className="card-title bg-white text-dark p-2 rounded-pill text-center" style={{width: '8rem', }}>{overlayText}</h5>
   </div>
