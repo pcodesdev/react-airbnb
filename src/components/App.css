@@ -19,6 +19,15 @@ img {
     width: 300px;
 
   }
+  .card-container{
+    flex: 0 0 auto;
+    background-color: black;
+    clear: both;
+    /* display: flex !important; */
+    /* flex-direction: column !important; */
+    display: flex;
+    flex-direction: row;
+  }
 /* Portrait */
 @media only screen 
   and (min-device-width: 320px) 

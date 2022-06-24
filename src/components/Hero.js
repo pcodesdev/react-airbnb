@@ -2,21 +2,21 @@ import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import './App.css';
-import image1 from './images/image-1.jpg';
-import image2 from './images/image-2.jpg';
-import image3 from './images/image-3.jpg';
-import image4 from './images/image-4.jpg';
-import image5 from './images/image-5.jpg';
-import image6 from './images/image-6.jpg';
-import image7 from './images/image-7.jpg';
-import image8 from './images/image-8.jpg';
-import image9 from './images/image-9.jpg';
-import image10 from './images/image-10.jpg';
-import image11 from './images/image-11.jpg';
-import image12 from './images/image-12.jpg';
-import image13 from './images/image-13.jpg';
-import image14 from './images/image-14.jpg';
-import image18 from './images/image-18.jpg';
+import image1 from './imgs/image-1.jpg';
+import image2 from './imgs/image-2.jpg';
+import image3 from './imgs/image-3.jpg';
+import image4 from './imgs/image-4.jpg';
+import image5 from './imgs/image-5.jpg';
+import image6 from './imgs/image-6.jpg';
+import image7 from './imgs/image-7.jpg';
+import image8 from './imgs/image-8.jpg';
+import image9 from './imgs/image-9.jpg';
+import image10 from './imgs/image-10.jpg';
+import image11 from './imgs/image-11.jpg';
+import image12 from './imgs/image-12.jpg';
+import image13 from './imgs/image-13.jpg';
+import image14 from './imgs/image-14.jpg';
+import image18 from './imgs/image-18.jpg';
 
 function Hero() {
     return(
