@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import CardRender from './components/cardRender';
-import Challenge from './components/challenges/challenges';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Navbar/>
       <Hero/>
       <CardRender/>
+      <Footer/>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { FaAirbnb } from 'react-icons/fa';
 
 function Navbar(){
     return(
-        <div className="navbar sticky-sm-top sticky-md-top shadow-lg p-3 mb-5 bg-body rounded">
+        <div className="navbar fixed-top sticky-md-top shadow-lg p-3 mb-5 bg-body rounded">
        
             <h1 className=" text-decoration-underline text-danger"><FaAirbnb/> airbnb</h1>
             <hr />
