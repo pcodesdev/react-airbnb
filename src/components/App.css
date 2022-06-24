@@ -40,6 +40,9 @@ img {
     /* img {
       width: 110%;
        } */
+       .card-items{
+        width: 20rem;
+       }
        .card-img-container{
         width: 20rem;
        }
