@@ -17,15 +17,18 @@ const details=CardData.map(data=>{
    return ( <div className='container'>
     <div className='card-group'>
    <div className='card justify-content-around  rounded-3 card-items' style={{width:'21rem'}}><Card 
-    name={data.name}
-    price={data.price}
-    img={data.img}
-    ratings={data.stats.rating}
-    reviews={data.stats.reviewCount}
-    country={data.country}
-    noOfPersons={data.noOfPersons}
-    overlayText={data.overlayText}
-    key={data.name}
+   key={data.id}
+    items={data}
+
+    // name={data.name}
+    // price={data.price}
+    // img={data.img}
+    // ratings={data.stats.rating}
+    // reviews={data.stats.reviewCount}
+    // country={data.country}
+    // noOfPersons={data.noOfPersons}
+    // overlayText={data.overlayText}
+    
 
    />
    </div>
@@ -38,7 +41,7 @@ const details=CardData.map(data=>{
         
 <div className='container'>
         
-        <div className='d-flex flex-sm-row flex-md-row flex-column justify-content-between '>
+        <div className='d-flex flex-sm-row flex-md-row flex-lg-row flex-row justify-content-between ' style={{width:'96%',overflow:'hidden'}}>
         
         {details}
         
